@@ -1,0 +1,115 @@
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/eot/IRANSansWeb_Black.eot');
+	src: url('../fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype');  /* IE6-8 */
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: IRANSans;
+    direction:rtl;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    height: 600px;
+
+}
+
+.container{
+
+    background-color:rgba(0, 0, 0,0.7);
+    padding:50px;
+    width: 350px;
+    height: 370px;
+    border-radius:3px;
+
+}
+
+h2{
+    color:rgb(243, 243, 243);
+    font-size:15px;
+    margin: 0 90px 10px 90px;
+}
+
+
+.input-container {
+    /* display: -ms-flexbox; */
+    display: flex;
+    width: 100%;
+    /* margin-bottom: 15px; */
+    border-radius:3%;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.icon {
+    padding: 10px;
+    background: #6b757e;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius:3px;
+
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-family: IRANSans;
+    font-size: 15px;
+    border: none;
+}
+
+.input-field:focus {
+    border: 2px solid #6b757e;
+}
+
+
+.spanX{
+    background-color: #fff;
+    padding : 10px;
+    font-weight: bold;
+
+}
+
+.userSpan{
+    color: red;
+
+}
+.passSpan{
+    color: red;
+}
+
+.btn {
+    background-color: #27a844;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius:3px;
+
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+p{
+    color:#fff;
+    margin: 10px 40px 0 40px;
+}
+a{
+    color:#1a5ab1;
+    text-decoration: none;
+}
