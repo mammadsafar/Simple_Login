@@ -4,7 +4,7 @@
   "description": "Login Form",
   "main": "app.js",
   "scripts": {
-    "test": "["
+    "test": ""
   },
   "author": "Mohammad Safar",
   "license": "ISC",
